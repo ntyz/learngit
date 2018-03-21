@@ -28,3 +28,8 @@ Git 管理项目时，文件流转的三个工作区域：工作目录，暂存�
 6. 首次提交git push -u origin master
 7. 以后对该项目修改提交至github时只要本地作了提交，就可以通过命令
  git push origin master 把本地master分支的最新修改推送至GitHub
+ 
+ 关联一个远程库
+ git remote add origin git@server-name:path/repo-name.git
+ 推送master分支的所有内容
+ git push -u origin master
