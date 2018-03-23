@@ -63,5 +63,6 @@ git checkout -- test.txt ‘一键还原’
 
 删除分支：git branch -d <name>
 
-ccc
-ccc
+看到分支合并图
+git log --graph
+
