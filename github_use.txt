@@ -42,3 +42,10 @@ Git 管理项目时，文件流转的三个工作区域：工作目录，暂存�
  
 查看命令历史，以便确定要回到未来的哪个版本
  git reflog
+ 
+删除一个文件
+ git rm
+ git commit
+ 
+误删本地文件且还未提交时
+git checkout -- test.txt ‘一键还原’
